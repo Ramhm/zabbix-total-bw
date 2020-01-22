@@ -4,8 +4,8 @@
 ## 21-01-2020 17:48
 ################################
 
-S_DATE='11/03/2019 06:00:00' # Start DATE MM/DD/YYYY / Local Time Zone
-E_DATE='12/03/2020 06:00:00' # End DATE MM/DD/YYYY / Local Time Zone
+S_DATE='12/03/2019 06:00:00' # Start DATE MM/DD/YYYY / Local Time Zone
+E_DATE='12/03/2020 06:10:00' # End DATE MM/DD/YYYY / Local Time Zone
 
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 ST_DATE=`date --date="$S_DATE" +"%s"`
@@ -19,7 +19,7 @@ BW_RESULT='Bandwidth_Result.csv'
 # Description
 HO='Hosts'
 NC='NIC'
-AVS='Avg Speed(MB)'
+AVS='Avg Speed(Mb)'
 TBH='Total Bandwidth Hours(MB)'
 TBD='Total Bandwidth Day(GB)'
 TBM='Total Bandwidth Month(TB)'
