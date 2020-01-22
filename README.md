@@ -1,5 +1,7 @@
 # Zabbix Total Bandwidth
 
+[![Download size](https://img.shields.io/github/languages/code-size/Ramhm/zabbix-total-bw)](https://github.com/Ramhm/zabbix-total-bw)&nbsp;[![Download size](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)&nbsp;
+
 This script help you to get server bandwidth Average from zabbix database with API.  script result will be Total Month Bandwidth.
 
 just you must enter Start Date, End Date, IP Address and NIC name. 
